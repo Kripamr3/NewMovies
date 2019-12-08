@@ -12,7 +12,7 @@ var MovieBaseClass = function MovieBaseClass(movieObj){
 };
 
 MovieBaseClass.prototype.renderMovie = function renderMovie (){
-    return ("\n        <div class=\"card col-md-4\">\n<div>\n                <h5>" + 
+    return ("\n        <div class=\"card col-md-5\">\n<div>\n                <h5>" + 
     (this.movieData.name) + 
     "</h5>\n<p>" +
      (this.movieData.description) +
