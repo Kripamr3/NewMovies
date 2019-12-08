@@ -8,7 +8,9 @@ export default {
     format: 'cjs'
   },
   plugins: [
-      buble(),
+      buble({
+        transforms: { asyncAwait: false }
+      }),
       livereload(),
       serve({
           open: true,
